@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Status>
+  <StartTime Ticks="636640657972490887" Humanized="2018-06-08 14:43:17" />
+  <EndTime Ticks="636640657975459688" Humanized="2018-06-08 14:43:17" />
+  <Runtime>468</Runtime>
+  <Count>0</Count>
+  <TotalCount>0</TotalCount>
+  <State>Completed</State>
+  <Fail>
+    <Reason />
+    <ExceptionMessage />
+    <ExceptionStackTrace />
+  </Fail>
+  <LogInformation>Completed.</LogInformation>
+  <Meta />
+</Status>

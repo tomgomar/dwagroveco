@@ -7,7 +7,7 @@
       <Partner>Dynamicweb Software A/S</Partner>
       <Email>noreply@dynamicweb.dk</Email>
       <CopyrightMetaInformation>Dynamicweb Software A/S</CopyrightMetaInformation>
-      <SolutionLastReportDate>2018-06-13 11:10:19</SolutionLastReportDate>
+      <SolutionLastReportDate>2018-06-15 06:08:09</SolutionLastReportDate>
       <SolutionFilesize>150616</SolutionFilesize>
       <SolutionDatabaseSize>120</SolutionDatabaseSize>
       <SolutionLastFileSizeReportDate>2018-06-07 11:07:16</SolutionLastFileSizeReportDate>
@@ -187,6 +187,7 @@
         <SplitTestsSendTo>5</SplitTestsSendTo>
         <SplitTestsSendCRThreshold>5</SplitTestsSendCRThreshold>
         <SplitTestsSendImprovementLimit>20</SplitTestsSendImprovementLimit>
+        <ReturningVisitorsLastSent>16-06-2018 04:15:13</ReturningVisitorsLastSent>
       </Notifications>
       <VisitorEngagement>
         <TimeFrame>14</TimeFrame>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Query ID="1440c53f-ab1b-40cf-91c2-7cfd79327d60" Name="ProductsEquus.query">
+  <Meta />
+  <Settings />
+  <Source Repository="Products" Item="Products.index" Type="Dynamicweb.Indexing.Queries.IndexQueryProvider, Dynamicweb.Indexing" />
+  <Expressions>
+    <GroupExpression Operator="And">
+      <BinaryExpression Operator="Contains">
+        <Left>
+          <FieldExpression Field="ShopIDs" />
+        </Left>
+        <Right>
+          <ConstantExpression Value="SHOP7" Type="System.String" />
+        </Right>
+      </BinaryExpression>
+    </GroupExpression>
+  </Expressions>
+  <ViewFields />
+  <ViewLanguages />
+</Query>

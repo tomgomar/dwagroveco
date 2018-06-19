@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Query ID="e51db546-d653-4edf-90df-3411bc3e8201" Name="ProductsRex.query">
+  <Meta />
+  <Settings />
+  <Source Repository="Products" Item="Products.index" Type="Dynamicweb.Indexing.Queries.IndexQueryProvider, Dynamicweb.Indexing" />
+  <Expressions>
+    <GroupExpression Operator="And">
+      <BinaryExpression Operator="Contains">
+        <Left>
+          <FieldExpression Field="ShopIDs" />
+        </Left>
+        <Right>
+          <ConstantExpression Value="SHOP8" Type="System.String" />
+        </Right>
+      </BinaryExpression>
+    </GroupExpression>
+  </Expressions>
+  <ViewFields />
+  <ViewLanguages />
+</Query>

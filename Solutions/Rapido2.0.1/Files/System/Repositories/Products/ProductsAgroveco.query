@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Query ID="b24f9772-3a2d-4041-84b8-8f2a0acb45c5" Name="ProductsAgroveco.query">
+  <Meta />
+  <Settings />
+  <Source Repository="Products" Item="Products.index" Type="Dynamicweb.Indexing.Queries.IndexQueryProvider, Dynamicweb.Indexing" />
+  <Parameters>
+    <Parameter Name="GroupID" Type="System.String" DefaultValue="" />
+  </Parameters>
+  <ViewFields />
+  <ViewLanguages />
+  <Expressions>
+    <GroupExpression Operator="And">
+      <BinaryExpression Operator="MatchAny">
+        <Left>
+          <FieldExpression Field="ParentGroupIDs" />
+        </Left>
+        <Right>
+          <ParameterExpression Name="GroupID" />
+        </Right>
+      </BinaryExpression>
+      <BinaryExpression Operator="In">
+        <Left>
+          <FieldExpression Field="ShopIDs" />
+        </Left>
+        <Right>
+          <TermExpression Value="SHOP9" DisplayValue="SHOP9" Type="System.String[]" />
+        </Right>
+      </BinaryExpression>
+    </GroupExpression>
+  </Expressions>
+</Query>

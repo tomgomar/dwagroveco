@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Query ID="0a8275b2-4ac8-4553-998a-9570ec80c723" Name="Productos Equus sin Ficha Producto">
+  <Meta />
+  <Settings />
+  <Source Repository="Products" Item="Products.index" Type="Dynamicweb.Indexing.Queries.IndexQueryProvider, Dynamicweb.Indexing" />
+  <Expressions>
+    <GroupExpression Operator="And">
+      <BinaryExpression Operator="Contains">
+        <Left>
+          <FieldExpression Field="ShopIDs" />
+        </Left>
+        <Right>
+          <ConstantExpression Value="SHOP7" Type="System.String[]" />
+        </Right>
+      </BinaryExpression>
+      <BinaryExpression Operator="IsEmpty">
+        <Left>
+          <FieldExpression Field="CustomField_Document" />
+        </Left>
+        <Right>
+          <ConstantExpression Value="Empty" Type="System.String" />
+        </Right>
+      </BinaryExpression>
+    </GroupExpression>
+  </Expressions>
+  <ViewFields>
+    <Field Name="Active" SystemName="" Source="ProductActive" Sort="0" />
+    <Field Name="Ficha de producto" SystemName="" Source="CustomField_Document" Sort="1" />
+    <Field Name="Product name" SystemName="" Source="ProductName" Sort="2" />
+    <Field Name="Product number" SystemName="" Source="ProductNumber" Sort="3" />
+  </ViewFields>
+  <ViewLanguages />
+</Query>

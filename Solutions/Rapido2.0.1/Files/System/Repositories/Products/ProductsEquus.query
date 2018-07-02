@@ -13,8 +13,47 @@
           <ConstantExpression Value="SHOP7" Type="System.String" />
         </Right>
       </BinaryExpression>
+      <BinaryExpression Operator="MatchAny">
+        <Left>
+          <FieldExpression Field="ParentGroupIDs" />
+        </Left>
+        <Right>
+          <ParameterExpression Name="GroupID" />
+        </Right>
+      </BinaryExpression>
+      <BinaryExpression Operator="Equal">
+        <Left>
+          <FieldExpression Field="Precio_Rango" />
+        </Left>
+        <Right>
+          <ParameterExpression Name="Precio" />
+        </Right>
+      </BinaryExpression>
+      <BinaryExpression Operator="Equal">
+        <Left>
+          <FieldExpression Field="LanguageID" />
+        </Left>
+        <Right>
+          <MacroExpression Lookup="Dynamicweb.Ecommerce.Context:LanguageID" />
+        </Right>
+      </BinaryExpression>
+      <BinaryExpression Operator="MatchAny">
+        <Left>
+          <FieldExpression Field="GroupNames" />
+        </Left>
+        <Right>
+          <ParameterExpression Name="Opciones" />
+        </Right>
+      </BinaryExpression>
     </GroupExpression>
   </Expressions>
   <ViewFields />
   <ViewLanguages />
+  <Parameters>
+    <Parameter Name="GroupID" Type="System.String" DefaultValue="" />
+    <Parameter Name="PiceRange" Type="System.String" DefaultValue="" />
+    <Parameter Name="ParentGroup" Type="System.String" DefaultValue="" />
+    <Parameter Name="Precio" Type="System.String" DefaultValue="" />
+    <Parameter Name="Opciones" Type="System.String" DefaultValue="" />
+  </Parameters>
 </Query>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Status>
+  <StartTime Ticks="636657706982083834" Humanized="2018-06-28 08:18:18" />
+  <EndTime Ticks="636657707194781809" Humanized="2018-06-28 08:18:39" />
+  <Runtime>21337</Runtime>
+  <Count>16</Count>
+  <TotalCount>8</TotalCount>
+  <State>Failed</State>
+  <Fail>
+    <Reason />
+    <ExceptionMessage />
+    <ExceptionStackTrace />
+  </Fail>
+  <LogInformation>Failed (16 / 8).</LogInformation>
+  <Meta>
+    <Build>Products</Build>
+    <CurrentAutoID>65698</CurrentAutoID>
+  </Meta>
+</Status>

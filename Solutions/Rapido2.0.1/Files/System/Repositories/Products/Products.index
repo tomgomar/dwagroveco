@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Index>
+<Index Type="Dynamicweb.Indexing.Index, Dynamicweb.Indexing" Name="Products.index">
   <Settings />
   <Instances Balancer="Dynamicweb.Indexing.Balancing.ActivePassive">
     <Instance Name="Products" Type="Dynamicweb.Indexing.Lucene.LuceneIndexProvider, Dynamicweb.Indexing.Lucene" />
@@ -32,7 +32,15 @@
       <Copy Sources="ProductRelationGroup_RELGRP8,ProductRelationGroup_RELGRP5,ProductRelationGroup_RELGRP7,ProductRelationGroup_RELGRP3,ProductRelationGroup_RELGRP1,ProductRelationGroup_RELGRP4" Name="Related product search" SystemName="RelatedProductSearch" Type="System.String" Stored="false" Analyzed="true" Indexed="true" />
       <Copy Sources="ID,VariantID" Name="ProductVariantIdCombination" SystemName="ProductVariantIdCombination" Type="System.String" Stored="true" Analyzed="false" Indexed="true" />
       <Field Source="ProductName" Name="NameForSort" SystemName="NameForSort" Type="System.String" Stored="true" Analyzed="false" Indexed="true" />
+      <Grouping Source="ProductPrice" Name="Precio Rango" SystemName="Precio_Rango" Type="System.String" Stored="true" Analyzed="false" Indexed="true">
+        <Group Name="1 - 10" From="1" To="10" />
+        <Group Name="10-20" From="10" To="20" />
+        <Group Name="20-30" From="20" To="30" />
+        <Group Name="30-40" From="30" To="40" />
+        <Group Name="&gt;40" From="40" To="100000" />
+      </Grouping>
     </Fields>
     <FieldTypes />
   </Schema>
+  <Meta />
 </Index>

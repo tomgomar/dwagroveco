@@ -13,8 +13,36 @@
           <ConstantExpression Value="SHOP8" Type="System.String" />
         </Right>
       </BinaryExpression>
+      <BinaryExpression Operator="Equal">
+        <Left>
+          <FieldExpression Field="LanguageID" />
+        </Left>
+        <Right>
+          <MacroExpression Lookup="Dynamicweb.Ecommerce.Context:LanguageID" />
+        </Right>
+      </BinaryExpression>
+      <BinaryExpression Operator="Equal">
+        <Left>
+          <FieldExpression Field="Precio_Rango" />
+        </Left>
+        <Right>
+          <ParameterExpression Name="Precio" />
+        </Right>
+      </BinaryExpression>
+      <BinaryExpression Operator="Contains">
+        <Left>
+          <FieldExpression Field="GroupNames" />
+        </Left>
+        <Right>
+          <ParameterExpression Name="Categoria" />
+        </Right>
+      </BinaryExpression>
     </GroupExpression>
   </Expressions>
   <ViewFields />
   <ViewLanguages />
+  <Parameters>
+    <Parameter Name="Precio" Type="System.String" DefaultValue="" />
+    <Parameter Name="Categoria" Type="System.String" />
+  </Parameters>
 </Query>

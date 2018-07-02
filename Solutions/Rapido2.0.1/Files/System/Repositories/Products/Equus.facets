@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Facets Name="Equus">
+  <Meta />
+  <Settings />
+  <Source Repository="Products" Item="ProductsEquus.query" />
+  <Facet Name="Precio" Type="Field" Field="Precio_Rango" QueryParameter="Precio">
+    <RenderType Name="Range" SystemName="Range" />
+  </Facet>
+  <Facet Name="Opciones" Type="Field" Field="GroupNames" QueryParameter="Opciones">
+    <RenderType Name="Checkboxes" SystemName="Checkboxes" />
+  </Facet>
+</Facets>

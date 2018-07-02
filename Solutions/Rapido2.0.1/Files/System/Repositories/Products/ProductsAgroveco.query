@@ -26,6 +26,14 @@
           <TermExpression Value="SHOP9" DisplayValue="SHOP9" Type="System.String[]" />
         </Right>
       </BinaryExpression>
+      <BinaryExpression Operator="Equal">
+        <Left>
+          <FieldExpression Field="LanguageID" />
+        </Left>
+        <Right>
+          <MacroExpression Lookup="Dynamicweb.Ecommerce.Context:LanguageID" />
+        </Right>
+      </BinaryExpression>
     </GroupExpression>
   </Expressions>
 </Query>

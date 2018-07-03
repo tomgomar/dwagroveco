@@ -1312,6 +1312,7 @@
   <key name="Comment">
     <translation culture="en-GB"><![CDATA[Comment]]></translation>
     <translation culture="da-DK"><![CDATA[Kommentar]]></translation>
+    <translation culture="es-ES"><![CDATA[Comment]]></translation>
   </key>
   <key name="Details">
     <translation culture="en-GB"><![CDATA[Details]]></translation>
@@ -2693,6 +2694,7 @@ Precio unitario]]></translation>
   <key name="Sign up for the event here">
     <translation culture="en-GB"><![CDATA[Sign up for the event here]]></translation>
     <translation culture="da-DK"><![CDATA[Tilmeld dig eventet her]]></translation>
+    <translation culture="es-ES"><![CDATA[Sign up for the event here]]></translation>
   </key>
   <key name="Saved card name">
     <translation culture="en-GB"><![CDATA[Saved card name]]></translation>
@@ -2968,10 +2970,12 @@ Precio unitario]]></translation>
   <key name="Sign up form">
     <translation culture="en-GB"><![CDATA[Sign up form]]></translation>
     <translation culture="da-DK"><![CDATA[Tilmeldingsformular]]></translation>
+    <translation culture="es-ES"><![CDATA[Sign up form]]></translation>
   </key>
   <key name="the terms and conditions of this website">
     <translation culture="en-GB"><![CDATA[the terms and conditions of this website]]></translation>
     <translation culture="da-DK"><![CDATA[regler og vilkår for denne hjemmeside]]></translation>
+    <translation culture="es-ES"><![CDATA[the terms and conditions of this website]]></translation>
   </key>
   <key name="Sign up for event and accept">
     <translation culture="en-GB"><![CDATA[Sign up for event and accept]]></translation>
@@ -3032,6 +3036,7 @@ Precio unitario]]></translation>
   <key name="Sign in for newsletter and accept">
     <translation culture="en-GB"><![CDATA[Sign in for newsletter and accept]]></translation>
     <translation culture="da-DK"><![CDATA[Log ind for nyhedsbrev og accepter]]></translation>
+    <translation culture="es-ES"><![CDATA[Sign in for newsletter and accept]]></translation>
   </key>
   <key name="Quick ordering">
     <translation culture="en-GB"><![CDATA[Quick ordering]]></translation>

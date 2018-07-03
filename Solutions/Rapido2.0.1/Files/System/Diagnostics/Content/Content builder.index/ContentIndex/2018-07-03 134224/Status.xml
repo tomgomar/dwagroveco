@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Status>
+  <StartTime Ticks="636662221445068643" Humanized="2018-07-03 13:42:24" />
+  <EndTime Ticks="636662222276286186" Humanized="2018-07-03 13:43:47" />
+  <Runtime>83179</Runtime>
+  <Count>567</Count>
+  <TotalCount>567</TotalCount>
+  <State>Completed</State>
+  <Fail>
+    <Reason />
+    <ExceptionMessage />
+    <ExceptionStackTrace />
+  </Fail>
+  <LogInformation>Completed (567 / 567).</LogInformation>
+  <Meta>
+    <Build>Content builder</Build>
+    <CurrentPageID>1246</CurrentPageID>
+  </Meta>
+</Status>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SmartSearch>
+  <SmartInfo id="b4f7414e-fc8f-4e40-bfd8-71726a69c76b" provider="Dynamicweb.SmartSearch.Providers.User.UserProviderSmartSearch" date="2018-07-04 11:43:29" name="Nuevos usuarios" userID="0" limit="-1" isHidden="False" configuration="" index="Products.index|Products" />
+  <RulesGroups>
+    <RulesGroup CombineMethod="None">
+      <Rule fieldID="CreatedOn" fieldType="System.DateTime" ctrlTypeID="8" fieldName="Created on" operator="IsAfter" ruleValueFrom="2015-07-08 00:00" ruleValueTo="Nothing" />
+    </RulesGroup>
+  </RulesGroups>
+  <SortParams>
+    <SortParam fieldID="Active" fieldType="System.Boolean" fieldName="Active" sort="Asc" />
+    <SortParam fieldID="Active" fieldType="System.Boolean" fieldName="Active" sort="Asc" />
+  </SortParams>
+  <ViewFields />
+  <ViewLanguages />
+</SmartSearch>

@@ -7,7 +7,7 @@
       <Partner>Dynamicweb Software A/S</Partner>
       <Email>noreply@dynamicweb.dk</Email>
       <CopyrightMetaInformation>Dynamicweb Software A/S</CopyrightMetaInformation>
-      <SolutionLastReportDate>2018-07-02 10:35:30</SolutionLastReportDate>
+      <SolutionLastReportDate>2018-07-04 09:43:07</SolutionLastReportDate>
       <SolutionFilesize>150616</SolutionFilesize>
       <SolutionDatabaseSize>120</SolutionDatabaseSize>
       <SolutionLastFileSizeReportDate>2018-06-07 11:07:16</SolutionLastFileSizeReportDate>
@@ -267,16 +267,16 @@
   </Modules>
   <System>
     <MailServer>
-      <Server>smtp.dynamic-systems.lan</Server>
+      <Server>mail.netaservice.com</Server>
       <DoNotUsePickup>False</DoNotUsePickup>
-      <Port>
-      </Port>
-      <Username>
-      </Username>
-      <Password>
-      </Password>
+      <Port>25</Port>
+      <Username>dynamicweb@netaservice.com</Username>
+      <Password>ZYT2RG8kMh</Password>
       <Type>smtp</Type>
       <UseSll>False</UseSll>
+      <SaveAllMailsToDisk>False</SaveAllMailsToDisk>
+      <ByPassRecipients>True</ByPassRecipients>
+      <ByPassRecipientsSendTo>dynamicweb@netaservice.com</ByPassRecipientsSendTo>
     </MailServer>
     <ActiveDirectory>
       <ADSI-Domain>
@@ -1063,4 +1063,40 @@
     <HasBeenConverted>True</HasBeenConverted>
     <GoogleFontApiKey>AIzaSyC_AeYoZz8_ia1EqDZUILjLkbqEWmm8a_0</GoogleFontApiKey>
   </ItemTypes>
+  <fakeusernameremembered>
+  </fakeusernameremembered>
+  <fakepasswordremembered>
+  </fakepasswordremembered>
+  <ctl00_MainContent_MailServerUseSll>
+  </ctl00_MainContent_MailServerUseSll>
+  <ctl00_MainContent_MailServerDoNotUsePickup>
+  </ctl00_MainContent_MailServerDoNotUsePickup>
+  <ctl00_MainContent_SaveAllMailsToDisk>
+  </ctl00_MainContent_SaveAllMailsToDisk>
+  <ctl00_MainContent_ByPassRecipients>
+  </ctl00_MainContent_ByPassRecipients>
+  <fakeusernameremembered>
+  </fakeusernameremembered>
+  <fakepasswordremembered>
+  </fakepasswordremembered>
+  <ctl00_MainContent_MailServerUseSll>
+  </ctl00_MainContent_MailServerUseSll>
+  <ctl00_MainContent_MailServerDoNotUsePickup>
+  </ctl00_MainContent_MailServerDoNotUsePickup>
+  <ctl00_MainContent_SaveAllMailsToDisk>
+  </ctl00_MainContent_SaveAllMailsToDisk>
+  <ctl00_MainContent_ByPassRecipients>
+  </ctl00_MainContent_ByPassRecipients>
+  <fakeusernameremembered>
+  </fakeusernameremembered>
+  <fakepasswordremembered>
+  </fakepasswordremembered>
+  <ctl00_MainContent_MailServerUseSll>
+  </ctl00_MainContent_MailServerUseSll>
+  <ctl00_MainContent_MailServerDoNotUsePickup>
+  </ctl00_MainContent_MailServerDoNotUsePickup>
+  <ctl00_MainContent_SaveAllMailsToDisk>
+  </ctl00_MainContent_SaveAllMailsToDisk>
+  <ctl00_MainContent_ByPassRecipients>
+  </ctl00_MainContent_ByPassRecipients>
 </Globalsettings>

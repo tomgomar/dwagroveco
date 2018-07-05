@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Query ID="102dad8c-0dd9-4d59-a7cb-054e12d492a7" Name="Errores en Rex">
+  <Meta />
+  <Settings />
+  <Source Repository="Products" Item="Products.index" Type="Dynamicweb.Indexing.Queries.IndexQueryProvider, Dynamicweb.Indexing" />
+  <Expressions>
+    <GroupExpression Operator="And">
+      <BinaryExpression Operator="Contains">
+        <Left>
+          <FieldExpression Field="ShopIDs" />
+        </Left>
+        <Right>
+          <ConstantExpression Value="SHOP8" Type="System.String[]" />
+        </Right>
+      </BinaryExpression>
+      <GroupExpression Operator="Or">
+        <BinaryExpression Operator="IsEmpty">
+          <Left>
+            <FieldExpression Field="ShortDescription" />
+          </Left>
+          <Right>
+            <ConstantExpression Value="Empty" Type="System.String" />
+          </Right>
+        </BinaryExpression>
+        <BinaryExpression Operator="IsEmpty">
+          <Left>
+            <FieldExpression Field="LongDescription" />
+          </Left>
+          <Right>
+            <ConstantExpression Value="Empty" Type="System.String" />
+          </Right>
+        </BinaryExpression>
+        <BinaryExpression Operator="IsEmpty">
+          <Left>
+            <FieldExpression Field="ProductImages" />
+          </Left>
+          <Right>
+            <ConstantExpression Value="Empty" Type="System.String" />
+          </Right>
+        </BinaryExpression>
+        <BinaryExpression Operator="IsEmpty">
+          <Left>
+            <FieldExpression Field="CustomField_Document" />
+          </Left>
+          <Right>
+            <ConstantExpression Value="Empty" Type="System.String" />
+          </Right>
+        </BinaryExpression>
+        <BinaryExpression Operator="LessThanOrEqual">
+          <Left>
+            <FieldExpression Field="Price" />
+          </Left>
+          <Right>
+            <ConstantExpression Value="0" Type="System.Double" />
+          </Right>
+        </BinaryExpression>
+        <BinaryExpression Operator="LessThan">
+          <Left>
+            <FieldExpression Field="Stock" />
+          </Left>
+          <Right>
+            <ConstantExpression Value="0" Type="System.Double" />
+          </Right>
+        </BinaryExpression>
+      </GroupExpression>
+    </GroupExpression>
+  </Expressions>
+  <ViewFields>
+    <Field Name="Active" SystemName="" Source="ProductActive" Sort="0" />
+    <Field Name="Name" SystemName="" Source="ProductName" Sort="1" />
+    <Field Name="Number" SystemName="" Source="ProductNumber" Sort="2" />
+    <Field Name="Price" SystemName="" Source="ProductPrice" Sort="3" />
+  </ViewFields>
+  <ViewLanguages />
+</Query>

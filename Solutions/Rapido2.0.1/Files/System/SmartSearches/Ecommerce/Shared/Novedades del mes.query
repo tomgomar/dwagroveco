@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Query ID="8e98400e-b57a-4211-9ac7-abfdbd80955a" Name="Novedades del mes">
+  <Meta />
+  <Settings />
+  <Source Repository="Products" Item="Products.index" Type="Dynamicweb.Indexing.Queries.IndexQueryProvider, Dynamicweb.Indexing" />
+  <Expressions>
+    <GroupExpression Operator="And">
+      <BinaryExpression Operator="GreaterThan">
+        <Left>
+          <FieldExpression Field="Created" />
+        </Left>
+        <Right>
+          <CodeExpression Parameters="Number%3A%3A-1%3BInterval%3A%3AMonths%3B" DisplayValue="Today - 1 Months" Type="Dynamicweb.Extensibility.CodeProviders.DateTimeCodeProvider" />
+        </Right>
+      </BinaryExpression>
+    </GroupExpression>
+  </Expressions>
+  <ViewFields>
+    <Field Name="Active" SystemName="" Source="ProductActive" Sort="0" />
+    <Field Name="Created" SystemName="" Source="ProductCreated" Sort="1" />
+    <Field Name="Product name" SystemName="" Source="ProductName" Sort="2" />
+    <Field Name="Product number" SystemName="" Source="ProductNumber" Sort="3" />
+    <Field Name="Price" SystemName="" Source="ProductPrice" Sort="4" />
+  </ViewFields>
+  <ViewLanguages />
+  <SortOrder>
+    <Sort Field="Created" Direction="Descending" />
+  </SortOrder>
+</Query>

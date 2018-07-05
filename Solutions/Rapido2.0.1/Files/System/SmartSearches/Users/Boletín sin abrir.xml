@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SmartSearch>
+  <SmartInfo id="a953af07-0126-498f-85fa-9e809c79fb88" provider="Dynamicweb.SmartSearch.Providers.User.UserProviderSmartSearch" date="2018-07-04 01:05:31" name="Boletín sin abrir" userID="0" limit="-1" isHidden="False" configuration="" index="Products.index|Products" />
+  <RulesGroups>
+    <RulesGroup CombineMethod="And">
+      <Rule fieldID="_pseudo_email_sent" fieldType="System.String" ctrlTypeID="0" fieldName="Recieved a specific email" operator="Equals" ruleValueFrom="{&quot;id&quot;:&quot;1&quot;,&quot;name&quot;:&quot;Noticias Equusline Verano&quot;}" ruleValueTo="Nothing" />
+      <Rule fieldID="_pseudo_email_opened" fieldType="System.String" ctrlTypeID="0" fieldName="Opened a specific email" operator="NotEqualTo" ruleValueFrom="{&quot;id&quot;:&quot;1&quot;,&quot;name&quot;:&quot;Noticias Equusline Verano&quot;}" ruleValueTo="Nothing" />
+    </RulesGroup>
+  </RulesGroups>
+  <SortParams>
+    <SortParam fieldID="Active" fieldType="System.Boolean" fieldName="Active" sort="Asc" />
+    <SortParam fieldID="Active" fieldType="System.Boolean" fieldName="Active" sort="Asc" />
+  </SortParams>
+  <ViewFields />
+  <ViewLanguages />
+</SmartSearch>

@@ -866,6 +866,7 @@
   <key name="Including products">
     <translation culture="en-GB"><![CDATA[Including products]]></translation>
     <translation culture="da-DK"><![CDATA[Inkluderede produkter]]></translation>
+    <translation culture="es-ES"><![CDATA[Including products]]></translation>
   </key>
   <key name="Mobile">
     <translation culture="en-GB"><![CDATA[Mobile]]></translation>
@@ -2608,10 +2609,12 @@ Precio unitario]]></translation>
   <key name="If you do not want to recieve emails from us, you can">
     <translation culture="en-GB"><![CDATA[If you do not want to recieve emails from us, you can]]></translation>
     <translation culture="da-DK"><![CDATA[Hvis du ikke ønske at modtage emails fra os, kan du]]></translation>
+    <translation culture="es-ES"><![CDATA[If you do not want to recieve emails from us, you can]]></translation>
   </key>
   <key name="unsubscribe">
     <translation culture="en-GB"><![CDATA[unsubscribe]]></translation>
     <translation culture="da-DK"><![CDATA[afmelde]]></translation>
+    <translation culture="es-ES"><![CDATA[unsubscribe]]></translation>
   </key>
   <key name="Subscribe confirmation">
     <translation culture="en-GB"><![CDATA[Subscribe confirmation]]></translation>

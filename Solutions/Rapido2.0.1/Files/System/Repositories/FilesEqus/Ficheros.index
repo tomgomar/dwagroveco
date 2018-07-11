@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Index Type="Dynamicweb.Indexing.Index, Dynamicweb.Indexing" Name="Ficheros.index">
+  <Meta />
+  <Settings />
+  <Instances Balancer="Dynamicweb.Indexing.Balancing.ActivePassive">
+    <Instance Name="Ficheros1" Type="Dynamicweb.Indexing.Lucene.LuceneIndexProvider, Dynamicweb.Indexing.Lucene" />
+    <Instance Name="Ficheros2" Type="Dynamicweb.Indexing.Lucene.LuceneIndexProvider, Dynamicweb.Indexing.Lucene" />
+  </Instances>
+  <Builds Type="Dynamicweb.Content.Files.FileIndexBuilder, Dynamicweb">
+    <Build Name="Ficheros" Action="Full">
+      <Setting Name="Recursive">True</Setting>
+      <Setting Name="StartFolder">ContenidoDigital</Setting>
+      <Setting Name="SkipMetadata">False</Setting>
+      <Notification SendLog="false" NotificationType="Never" />
+    </Build>
+  </Builds>
+  <Schema>
+    <Fields>
+      <Extension Type="Dynamicweb.Content.Files.FileIndexSchemaExtender, Dynamicweb" Stored="false" Analyzed="false" Indexed="false" />
+    </Fields>
+    <FieldTypes />
+  </Schema>
+</Index>

@@ -7,7 +7,7 @@
       <Partner>Dynamicweb Software A/S</Partner>
       <Email>noreply@dynamicweb.dk</Email>
       <CopyrightMetaInformation>Dynamicweb Software A/S</CopyrightMetaInformation>
-      <SolutionLastReportDate>2018-07-04 09:43:07</SolutionLastReportDate>
+      <SolutionLastReportDate>2018-07-10 10:20:39</SolutionLastReportDate>
       <SolutionFilesize>150616</SolutionFilesize>
       <SolutionDatabaseSize>120</SolutionDatabaseSize>
       <SolutionLastFileSizeReportDate>2018-06-07 11:07:16</SolutionLastFileSizeReportDate>
@@ -118,6 +118,9 @@
       <EcomDescriptionEditorConfigID>1</EcomDescriptionEditorConfigID>
       <EcomTeaserEditorConfigID>1</EcomTeaserEditorConfigID>
     </ProviderBasedEditor>
+    <Permissions>
+      <UseNew>1</UseNew>
+    </Permissions>
   </Settings>
   <Modules>
     <Filemanager>
@@ -151,6 +154,7 @@
         </ValideForDays>
       </AutoLoginCookie>
       <Impersonation>OnlyOrders</Impersonation>
+      <ImpersonationFullExceptPermissions>False</ImpersonationFullExceptPermissions>
     </Users>
     <Extranet>
       <PasswordExpireDays>never</PasswordExpireDays>
@@ -239,15 +243,16 @@
       </UploadedImages>
       <UploadedCustomFiles>
         <DefineWhere>OnUser</DefineWhere>
-        <FilesFolder>
-        </FilesFolder>
+        <FilesFolder>/Files</FilesFolder>
       </UploadedCustomFiles>
       <ExtranetPasswordSecurity>
         <PeriodLoginFailure>10</PeriodLoginFailure>
         <BlockingPeriod>10</BlockingPeriod>
         <LoginAttempts>3</LoginAttempts>
         <RecoveryTokenTimeout>24</RecoveryTokenTimeout>
+        <SecurityEnable>False</SecurityEnable>
       </ExtranetPasswordSecurity>
+      <UserSmartSearchesCahceRecalculatingInterval>1</UserSmartSearchesCahceRecalculatingInterval>
     </UserManagement>
     <LanguageManagement>
       <DeactivateParagraphOnNew>True</DeactivateParagraphOnNew>
@@ -392,7 +397,6 @@
       <ImagesFolderName>Images</ImagesFolderName>
       <FilesFolderName>Files</FilesFolderName>
     </Filesystem>
-    <dblgnforna>False</dblgnforna>
     <dblgnfornafe>False</dblgnfornafe>
     <Clustering>
       <LocalMachineName>
@@ -409,8 +413,6 @@
     <AddIns>
       <AllowLoad>True</AllowLoad>
     </AddIns>
-    <InstalledSolutions>ecom,ecomEnterprise2014;cms,cmsTrial;</InstalledSolutions>
-    <LicenseInformation>s0fdnxTWidiW/NBgmZwaRzre3X8qMSiL</LicenseInformation>
   </System>
   <Ecom>
     <Picture>
@@ -690,7 +692,7 @@
       <LimitOfLinksToAppearOnTheList>5</LimitOfLinksToAppearOnTheList>
     </RelatedProducts>
     <Users>
-      <IncludeShopIdInExtranetLogIn>on</IncludeShopIdInExtranetLogIn>
+      <IncludeShopIdInExtranetLogIn>1</IncludeShopIdInExtranetLogIn>
     </Users>
     <Price>
       <List>

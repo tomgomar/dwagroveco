@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Facets Name="Fichero_facet">
+  <Meta />
+  <Settings />
+  <Source Repository="FilesEqus" Item="Ficheros.query" />
+  <Facet Name="Fichero" Type="Field" Field="DirectoryRelativePath" QueryParameter="Folder">
+    <RenderType Name="Checkboxes" SystemName="Checkboxes" />
+  </Facet>
+</Facets>

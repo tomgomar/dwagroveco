@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Status>
+  <StartTime Ticks="636668273548744656" Humanized="2018-07-10 13:49:14" />
+  <EndTime Ticks="636668273563439936" Humanized="2018-07-10 13:49:16" />
+  <Runtime>1537</Runtime>
+  <Count>7</Count>
+  <TotalCount>7</TotalCount>
+  <State>Completed</State>
+  <Fail>
+    <Reason />
+    <ExceptionMessage />
+    <ExceptionStackTrace />
+  </Fail>
+  <LogInformation>Completed (7 / 7).</LogInformation>
+  <Meta>
+    <Build>Ficheros</Build>
+    <CurrentFile>C:\Desarrollo\dwagroveco\dwagroveco\Solutions\Rapido2.0.1\Files\ContenidoDigital\Empleados\NP.jpg</CurrentFile>
+  </Meta>
+</Status>

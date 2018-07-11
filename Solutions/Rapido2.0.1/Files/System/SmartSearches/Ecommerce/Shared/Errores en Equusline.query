@@ -67,9 +67,10 @@
   </Expressions>
   <ViewFields>
     <Field Name="Active" SystemName="" Source="ProductActive" Sort="0" />
-    <Field Name="Name" SystemName="" Source="ProductName" Sort="1" />
-    <Field Name="Number" SystemName="" Source="ProductNumber" Sort="2" />
+    <Field Name="Ficha de producto" SystemName="" Source="CustomField_Document" Sort="1" />
+    <Field Name="Name" SystemName="" Source="ProductName" Sort="2" />
     <Field Name="Price" SystemName="" Source="ProductPrice" Sort="3" />
+    <Field Name="Short description" SystemName="" Source="ProductShortDescription" Sort="4" />
   </ViewFields>
   <ViewLanguages />
 </Query>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Query ID="a0fc764f-588d-4750-a6b4-18aa2977f010" Name="Ficheros.query">
+  <Meta />
+  <Settings />
+  <Source Repository="FilesEqus" Item="Ficheros.index" Type="Dynamicweb.Indexing.Queries.IndexQueryProvider, Dynamicweb.Indexing" />
+  <Parameters>
+    <Parameter Name="Search" Type="System.String" />
+    <Parameter Name="Folder" Type="System.String" />
+  </Parameters>
+  <Expressions>
+    <GroupExpression Operator="And">
+      <BinaryExpression Operator="In">
+        <Left>
+          <FieldExpression Field="DirectoryRelativePath" />
+        </Left>
+        <Right>
+          <ParameterExpression Name="Folder" />
+        </Right>
+      </BinaryExpression>
+      <GroupExpression Operator="Or">
+        <BinaryExpression Operator="Contains">
+          <Left>
+            <FieldExpression Field="FileName" />
+          </Left>
+          <Right>
+            <ParameterExpression Name="Search" />
+          </Right>
+        </BinaryExpression>
+      </GroupExpression>
+      <BinaryExpression Operator="GreaterThan">
+        <Left>
+          <FieldExpression Field="FileSize" />
+        </Left>
+        <Right>
+          <ConstantExpression Value="0" Type="System.Int64" />
+        </Right>
+      </BinaryExpression>
+    </GroupExpression>
+  </Expressions>
+  <ViewFields />
+  <ViewLanguages />
+</Query>

@@ -259,10 +259,12 @@
   <key name="Showing page">
     <translation culture="da-DK"><![CDATA[Viser side]]></translation>
     <translation culture="en-GB"><![CDATA[Showing page]]></translation>
+    <translation culture="es-ES"><![CDATA[Showing page]]></translation>
   </key>
   <key name="of">
     <translation culture="da-DK"><![CDATA[af]]></translation>
     <translation culture="en-GB"><![CDATA[of]]></translation>
+    <translation culture="es-ES"><![CDATA[of]]></translation>
   </key>
   <key name="products">
     <translation culture="da-DK"><![CDATA[produkter]]></translation>
@@ -1010,6 +1012,7 @@
   <key name="Sign out">
     <translation culture="en-GB"><![CDATA[Sign out]]></translation>
     <translation culture="da-DK"><![CDATA[Log ud]]></translation>
+    <translation culture="es-ES"><![CDATA[Sign out]]></translation>
   </key>
   <key name="Download">
     <translation culture="en-GB"><![CDATA[Download]]></translation>
@@ -2390,6 +2393,7 @@ Precio unitario]]></translation>
   <key name="Manage Accounts">
     <translation culture="en-GB"><![CDATA[Manage Accounts]]></translation>
     <translation culture="da-DK"><![CDATA[Rediger konto]]></translation>
+    <translation culture="es-ES"><![CDATA[Manage Accounts]]></translation>
   </key>
   <key name="Login as">
     <translation culture="en-GB"><![CDATA[Login as]]></translation>
@@ -2475,6 +2479,7 @@ Precio unitario]]></translation>
   <key name="View the list of users you can impersonate">
     <translation culture="en-GB"><![CDATA[View the list of users you can impersonate]]></translation>
     <translation culture="da-DK"><![CDATA[Vis listen af brugere du kan impersonere]]></translation>
+    <translation culture="es-ES"><![CDATA[View the list of users you can impersonate]]></translation>
   </key>
   <key name="Stop impersonation if you want to login as another user.">
     <translation culture="en-GB"><![CDATA[Stop impersonation if you want to login as another user.]]></translation>
@@ -2486,14 +2491,17 @@ Precio unitario]]></translation>
   <key name="Sign in as">
     <translation culture="en-GB"><![CDATA[Sign in as]]></translation>
     <translation culture="da-DK"><![CDATA[Log ind som]]></translation>
+    <translation culture="es-ES"><![CDATA[Sign in as]]></translation>
   </key>
   <key name="customer(s) found">
     <translation culture="en-GB"><![CDATA[customer(s) found]]></translation>
     <translation culture="da-DK"><![CDATA[kunder fundet]]></translation>
+    <translation culture="es-ES"><![CDATA[customer(s) found]]></translation>
   </key>
   <key name="Select the customer you want to manage">
     <translation culture="en-GB"><![CDATA[Select the customer you want to manage]]></translation>
     <translation culture="da-DK"><![CDATA[Vælg den kunde du vil arbejde med]]></translation>
+    <translation culture="es-ES"><![CDATA[Select the customer you want to manage]]></translation>
   </key>
   <key name="Check your email - we sent you an email with the password">
     <translation culture="en-GB"><![CDATA[Check your email - we sent you an email with the password]]></translation>
@@ -2560,6 +2568,7 @@ Precio unitario]]></translation>
   <key name="Invalid email or password">
     <translation culture="en-GB"><![CDATA[Invalid email or password]]></translation>
     <translation culture="da-DK"><![CDATA[Forkert email eller kodeord]]></translation>
+    <translation culture="es-ES"><![CDATA[Invalid email or password]]></translation>
   </key>
   <key name="errorheader">
     <translation culture="en-GB"><![CDATA[An error has happend]]></translation>
@@ -2936,6 +2945,7 @@ Precio unitario]]></translation>
   <key name="Search user">
     <translation culture="en-GB"><![CDATA[Search user]]></translation>
     <translation culture="da-DK"><![CDATA[Søg bruger]]></translation>
+    <translation culture="es-ES"><![CDATA[Search user]]></translation>
   </key>
   <key name="We have received a request to reset your password for your account.">
     <translation culture="en-GB"><![CDATA[We have received a request to reset your password for your account.]]></translation>

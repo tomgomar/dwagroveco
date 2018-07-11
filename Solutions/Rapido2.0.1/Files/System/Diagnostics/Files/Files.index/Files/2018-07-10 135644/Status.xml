@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Status>
+  <StartTime Ticks="636668278041269886" Humanized="2018-07-10 13:56:44" />
+  <EndTime Ticks="636668278055036299" Humanized="2018-07-10 13:56:45" />
+  <Runtime>1446</Runtime>
+  <Count>31</Count>
+  <TotalCount>31</TotalCount>
+  <State>Completed</State>
+  <Fail>
+    <Reason />
+    <ExceptionMessage />
+    <ExceptionStackTrace />
+  </Fail>
+  <LogInformation>Completed (31 / 31).</LogInformation>
+  <Meta>
+    <Build>Files</Build>
+    <CurrentFile>C:\Desarrollo\dwagroveco\dwagroveco\Solutions\Rapido2.0.1\Files\DigitalAssets\Others\redbikes2.jpg</CurrentFile>
+  </Meta>
+</Status>

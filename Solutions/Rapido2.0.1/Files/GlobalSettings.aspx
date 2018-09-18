@@ -7,7 +7,7 @@
       <Partner>Dynamicweb Software A/S</Partner>
       <Email>noreply@dynamicweb.dk</Email>
       <CopyrightMetaInformation>Dynamicweb Software A/S</CopyrightMetaInformation>
-      <SolutionLastReportDate>2018-09-17 11:42:19</SolutionLastReportDate>
+      <SolutionLastReportDate>2018-09-17 12:03:47</SolutionLastReportDate>
       <SolutionFilesize>179453</SolutionFilesize>
       <SolutionDatabaseSize>152</SolutionDatabaseSize>
       <SolutionLastFileSizeReportDate>2018-09-18 11:42:15</SolutionLastFileSizeReportDate>
@@ -108,7 +108,7 @@
       <DisableTemplateUpdates>False</DisableTemplateUpdates>
     </Updates>
     <LastSeenVersion>
-      <Version>9.4.12</Version>
+      <Version>9.5.1</Version>
     </LastSeenVersion>
     <Dictionary>
       <HideOldTranslationButton>false</HideOldTranslationButton>
@@ -341,7 +341,7 @@
       </DateFormat>
     </Database>
     <Version>
-      <CurrentVersion>9.4.0.0</CurrentVersion>
+      <CurrentVersion>9.5.0.0</CurrentVersion>
       <PerformedOncePackages>
         <updates.xml>2029,2028,2023,2021</updates.xml>
         <ecom.xml>2029,2028,2027,2025</ecom.xml>
@@ -426,6 +426,7 @@
     <AddIns>
       <AllowLoad>True</AllowLoad>
     </AddIns>
+    <dblgnforna>False</dblgnforna>
   </System>
   <Ecom>
     <Picture>

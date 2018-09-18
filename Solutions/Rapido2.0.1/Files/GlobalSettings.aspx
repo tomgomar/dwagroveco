@@ -7,15 +7,23 @@
       <Partner>Dynamicweb Software A/S</Partner>
       <Email>noreply@dynamicweb.dk</Email>
       <CopyrightMetaInformation>Dynamicweb Software A/S</CopyrightMetaInformation>
-      <SolutionLastReportDate>2018-07-10 10:20:39</SolutionLastReportDate>
-      <SolutionFilesize>150616</SolutionFilesize>
-      <SolutionDatabaseSize>120</SolutionDatabaseSize>
-      <SolutionLastFileSizeReportDate>2018-06-07 11:07:16</SolutionLastFileSizeReportDate>
+      <SolutionLastReportDate>2018-09-17 11:42:19</SolutionLastReportDate>
+      <SolutionFilesize>179453</SolutionFilesize>
+      <SolutionDatabaseSize>152</SolutionDatabaseSize>
+      <SolutionLastFileSizeReportDate>2018-09-18 11:42:15</SolutionLastFileSizeReportDate>
       <InstallationCheckSum>974251c97f4f27763c8df8c7769afc89</InstallationCheckSum>
       <InstallationCrmID>c5613b65-ceb7-e611-87b9-00155d30401d</InstallationCrmID>
       <InstallationCrmSolutionName>base9dev.local.dynamicweb.dk</InstallationCrmSolutionName>
       <InstallationCrmSolutionID>
       </InstallationCrmSolutionID>
+      <SolutionLoginInfoLogo>
+      </SolutionLoginInfoLogo>
+      <SolutionLoginInfoLogo_path>
+      </SolutionLoginInfoLogo_path>
+      <SolutionLoginInfo>
+      </SolutionLoginInfo>
+      <PartnerEmail>
+      </PartnerEmail>
     </CommonInformation>
     <TextEditor>
       <UseProviderBasedEditors>True</UseProviderBasedEditors>
@@ -48,6 +56,7 @@
       <LockMgmtCenter>False</LockMgmtCenter>
       <HideRememberFeatures>False</HideRememberFeatures>
       <LockAccessToItems>True</LockAccessToItems>
+      <HideLayoutSelectorEditLink>False</HideLayoutSelectorEditLink>
     </CustomerAccess>
     <MyPage>
       <HideStat>False</HideStat>
@@ -121,6 +130,10 @@
     <Permissions>
       <UseNew>1</UseNew>
     </Permissions>
+    <ForceSSL4Admin>False</ForceSSL4Admin>
+    <Pdf>
+      <PageSize>A4</PageSize>
+    </Pdf>
   </Settings>
   <Modules>
     <Filemanager>
@@ -296,7 +309,7 @@
       <Type>ms_sqlserver</Type>
       <UserName>administrador</UserName>
       <Database>nasagrovecodb</Database>
-      <SQLServer>nasagrovecosql.database.windows.net</SQLServer>
+      <SQLServer>nasdemosql.database.windows.net</SQLServer>
       <DWWebIP>
       </DWWebIP>
       <SQLServer2>
@@ -1101,4 +1114,30 @@
   </ctl00_MainContent_SaveAllMailsToDisk>
   <ctl00_MainContent_ByPassRecipients>
   </ctl00_MainContent_ByPassRecipients>
+  <OpenTo>
+  </OpenTo>
+  <ctl00_MainContent_CopyrightMetaInformation>
+  </ctl00_MainContent_CopyrightMetaInformation>
+  <ctl00_MainContent_SolutionLoginInfo>
+  </ctl00_MainContent_SolutionLoginInfo>
+  <ctl00_MainContent_HideRememberFeatures>
+  </ctl00_MainContent_HideRememberFeatures>
+  <ctl00_MainContent_LockTemplateFolder>
+  </ctl00_MainContent_LockTemplateFolder>
+  <ctl00_MainContent_LockSystemFolder>
+  </ctl00_MainContent_LockSystemFolder>
+  <ctl00_MainContent_LockDeveloperTools>
+  </ctl00_MainContent_LockDeveloperTools>
+  <ctl00_MainContent_LockMgmtCenter>
+  </ctl00_MainContent_LockMgmtCenter>
+  <ctl00_MainContent_LockAccessToItems>
+  </ctl00_MainContent_LockAccessToItems>
+  <ctl00_MainContent_HideLayoutSelectorEditLink>
+  </ctl00_MainContent_HideLayoutSelectorEditLink>
+  <ctl00_MainContent_PageNotFoundRedirectTo>
+  </ctl00_MainContent_PageNotFoundRedirectTo>
+  <ctl00_MainContent_Disable71Logging>
+  </ctl00_MainContent_Disable71Logging>
+  <ctl00_MainContent_ForceSSL4Admin>
+  </ctl00_MainContent_ForceSSL4Admin>
 </Globalsettings>

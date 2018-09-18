@@ -360,4 +360,34 @@
     <translation culture="da-DK"><![CDATA[Show less]]></translation>
     <translation culture="es-ES"><![CDATA[Show less]]></translation>
   </key>
+  <key name="Showing page" DefaultValue="Showing page">
+    <translation culture="en-GB"><![CDATA[Showing page]]></translation>
+    <translation culture="da-DK"><![CDATA[Showing page]]></translation>
+    <translation culture="es-ES"><![CDATA[Showing page]]></translation>
+  </key>
+  <key name="of" DefaultValue="of">
+    <translation culture="en-GB"><![CDATA[of]]></translation>
+    <translation culture="da-DK"><![CDATA[of]]></translation>
+    <translation culture="es-ES"><![CDATA[of]]></translation>
+  </key>
+  <key name="products" DefaultValue="products">
+    <translation culture="en-GB"><![CDATA[products]]></translation>
+    <translation culture="da-DK"><![CDATA[products]]></translation>
+    <translation culture="es-ES"><![CDATA[products]]></translation>
+  </key>
+  <key name="Add to cart" DefaultValue="Add to cart">
+    <translation culture="en-GB"><![CDATA[Add to cart]]></translation>
+    <translation culture="da-DK"><![CDATA[Add to cart]]></translation>
+    <translation culture="es-ES"><![CDATA[Add to cart]]></translation>
+  </key>
+  <key name="Filename" DefaultValue="Filename">
+    <translation culture="en-GB"><![CDATA[Filename]]></translation>
+    <translation culture="da-DK"><![CDATA[Filename]]></translation>
+    <translation culture="es-ES"><![CDATA[Filename]]></translation>
+  </key>
+  <key name="Filesize" DefaultValue="Filesize">
+    <translation culture="en-GB"><![CDATA[Filesize]]></translation>
+    <translation culture="da-DK"><![CDATA[Filesize]]></translation>
+    <translation culture="es-ES"><![CDATA[Filesize]]></translation>
+  </key>
 </translations>

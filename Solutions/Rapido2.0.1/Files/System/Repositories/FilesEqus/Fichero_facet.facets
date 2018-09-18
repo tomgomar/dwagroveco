@@ -3,7 +3,7 @@
   <Meta />
   <Settings />
   <Source Repository="FilesEqus" Item="Ficheros.query" />
-  <Facet Name="Fichero" Type="Field" Field="DirectoryRelativePath" QueryParameter="Folder">
+  <Facet Name="Facet1hj" Type="Field" Field="DirectoryRelativePath" QueryParameter="Folder">
     <RenderType Name="Checkboxes" SystemName="Checkboxes" />
   </Facet>
 </Facets>
